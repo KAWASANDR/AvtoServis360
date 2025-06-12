@@ -1,3 +1,7 @@
+:root {
+     color-scheme: only light;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -468,6 +472,20 @@
             }
         }
         
+        @media (max-width: 650px){
+            .contact-info{
+                                text-align: center;
+            }
+            #t2{
+                position: relative;
+                top: 280px;
+            }
+            .contact-info{
+                position: relative;
+                bottom: 125px;
+            }
+        }
+
         @media (max-width: 480px) {
             .section-title {
                 font-size: 22px;
